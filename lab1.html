@@ -1,49 +1,81 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
 <head>
-  <title> Web Lab 1 </title>
   <style>
-
+    th {
+      border: 3px solid blue;
+      color: blue;
+      text-decoration: underline;
+      vertical-align: top
+    }
+ 
+    .leftcell {
+      color: cyan;
+    }
+ 
+    .rightcell {
+      color: yellow;
+    }
+ 
+    .bottomcell {
+      color: orange;
+    }
+ 
+    <meta charset="utf-8"><title></title>
   </style>
 </head>
-
+ 
 <body>
-  <table style="width:500px" bgcolor="cyan" cellspacing="5">
+  <table bgcolor=cyan>
     <tr>
+      <td>
+        <table class=a width=650px cellspacing=5px>
+          <tr bgcolor=yellow>
+            <th style="height:30px;width:100px">Home</th>
+            <th style="width:100px">About me</th>
+            <th style="width:100px">Product</th>
+            <th style="width:100px">Services</th>
+            <th style="width:100px">Maps</th>
+            <th style="width:100px">Contact me</th>
+          </tr>
+        </table>
+      </td>
     </tr>
-
-    <tr bgcolor=yellow>
-      <th style=width:100px>Home</th>
-      <th style=width:100px>About me</th>
-      <th style=width:100px>Product</th>
-      <th style=width:100px>Services</th>
-      <th style=width:100px>Maps</th>
-      <th style=width:100px>Contact me</th>
-    </tr>
-
-
+ 
+ 
     <tr>
-
-      <table width=500px>
-        <tr style="height:300px; ">
-          <td colspan=2 style="color:cyan;" bgcolor=gray> This area will contain the local <br> Navigation </br> </td>
-          <td colspan=2 style="color:black;" bgcolor=yellow> This area will contain the <br> information about me </br> </td>
-          <td colspan=2 style="color:yellow;" bgcolor=blue> This area will contain the <br> information about me </br> </td>
-        </tr>
-      </table>
+      <td>
+        <table height=500px width=650px>
+          <tr>
+            <td style="height:5px; width:100px"> </td>
+            <td style="height:5px; width:100px"> </td>
+            <td style="height:5px;width:100px"> </td>
+            <td style="height:5px;width:100px"> </td>
+            <td style="height:5px;width:100px"> </td>
+            <td style="height:5px;width:100px"> </td>
+          </tr>
+          <tr>
+            <td colspan=2 bgcolor=gray valign=top align=center class="leftcell"> This area will contain the local <br>
+              navigation </td>
+            <td colspan=2 bgcolor=yellow valign=top align=center> This area will contain the <br>
+              information about me</td>
+            <td colspan=2 bgcolor=blue valign=top align=center class="rightcell"> This will contain the information about navigation </td>
+          </tr>
+          <td colspan=6 align=center valign=top height=50px class="bottomcell"> This area will contain the copyright information </td>
+        </table>
+      </td>
     </tr>
-
-    <tr align="center">
-      <td colspan=6> This area will contain the copyright information </td>
+ 
+ 
+ 
     </tr>
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+  </table>
+ 
 </body>
-
+ 
 </html>
