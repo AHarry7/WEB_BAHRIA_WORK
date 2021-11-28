@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="files/StyleSheet2.css">
+    <script src="files/JavaScript.js"></script>
+    <title> calculator </title>
+
+</head>
+
+<body>
+
+        <div class="calculator border border-1 border-dark ms-5 mt-5 " >
+            <div>
+                <input type="text" class="calculator-screen" value="" id="screen" disabled />
+            </div>
+
+            <div class="calculator-keys">
+
+                <button class="button" type="button" id="" onclick="num(7)">7</button>
+                <button class="button" type="button" id="" onclick="num(8)">8</button>
+                <button class="button" type="button" id="" onclick="num(9)">9</button>
+                <button class="button " type="button" id="" onclick="op('/')" style=" height: 70%; width: 96%; box-sizing: content-box; flex-flow: wrap-reverse;">&divide;</button>
+            </div>
+
+            <div class="calculator-keys">
+
+                <button class="button" type="button" id="" onclick="num(4)">4</button>
+                <button class="button" type="button" id="" onclick="num(5)">5</button>
+                <button class="button" type="button" id="" onclick="num(6)">6</button>
+                <button class="button" type="button" id="" onclick="op('*')" style=" height: 70%; width: 96%; box-sizing: content-box; flex-flow: wrap-reverse; margin-top: -24%;">x</button>
+            </div>
+
+            <div class="calculator-keys">
+
+                <button class="button" type="button" id="" onclick="num(1)">1</button>
+                <button class="button" type="button" id="" onclick="num(2)">2</button>
+                <button class="button" type="button" id="" onclick="num(3)">3</button>
+                <button class="button" type="button" id="" onclick="op('-')" style=" height: 70%; width: 96%; box-sizing: content-box; flex-flow: wrap-reverse; margin-top:-50%;">-</button>
+            </div>
+
+            <div class="calculator-keys">
+
+                <button class="button" type="button" id="" onclick="num(0)">0</button>
+                <button class="button" type="button" id="" onclick="clr()">C</button>
+                <button class="button" type="button" id="" onclick="op('+')">+</button>
+                <button class="button" type="button" id="" onclick="result()" style="height: 180%; margin-top: -72%; border-radius: 17%; width: 88%; margin-left: 7%; background-color: darkorange;">=</button>
+            </div>
+
+
+
+
+        </div>
+
+</body>
+</html>
