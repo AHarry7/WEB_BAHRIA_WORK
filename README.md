@@ -1,2 +1,2 @@
 # WEB_BAHRIA_WORK
-Adding all my university Lab journals and web assignments here.
+For Web front end pages which i designed.
